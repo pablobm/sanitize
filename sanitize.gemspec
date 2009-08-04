@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.require_path          = 'lib'
   s.required_ruby_version = '>= 1.8.6'
 
-  s.add_dependency('hpricot', '~> 0.8.1')
+  s.add_dependency('hpricot', '~> 0.6')
 
   s.files = [
     'HISTORY',
