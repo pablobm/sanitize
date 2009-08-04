@@ -24,10 +24,6 @@
 $:.unshift(File.dirname(File.expand_path(__FILE__)))
 $:.uniq!
 
-require 'rubygems'
-
-gem 'hpricot', '~> 0.6'
-
 require 'hpricot'
 require 'sanitize/config'
 require 'sanitize/config/restricted'
