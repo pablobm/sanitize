@@ -26,7 +26,7 @@ $:.uniq!
 
 require 'rubygems'
 
-gem 'hpricot', '~> 0.8.1'
+gem 'hpricot', '~> 0.6'
 
 require 'hpricot'
 require 'sanitize/config'
